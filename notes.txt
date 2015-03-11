@@ -1,0 +1,6 @@
+nose
+coverage
+
+
+ nosetests --with-coverage --cover-erase  exampletest.py 
+coveralls
