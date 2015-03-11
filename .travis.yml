@@ -1,3 +1,5 @@
+language: python
+
 python:
     - 2.7
 install:
@@ -5,5 +7,4 @@ install:
 script:
     - nosetests --with-coverage exampletest.py
 
-#after_success: - echo
 
